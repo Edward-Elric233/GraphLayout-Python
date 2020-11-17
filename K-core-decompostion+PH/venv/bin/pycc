@@ -1,0 +1,3 @@
+#!/home/edward/SourceFile/Python/K-core-decompostion/venv/bin/python
+from numba.pycc import main
+main()
