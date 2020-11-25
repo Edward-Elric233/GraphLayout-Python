@@ -1,0 +1,16 @@
+id,source,target,value
+0,ASN,IP,26.0
+1,Cert_SHA256,Domain,75.0
+2,Domain,Domain,1120.0
+3,Domain,IP,413.0
+4,Domain,Cert_SHA256,75.0
+5,Domain,Whois_Name,69.0
+6,Domain,Whois_Email,27.0
+7,Domain,Whois_Phone,13.0
+8,IP,Domain,413.0
+9,IP,IP_CIDR,26.0
+10,IP,ASN,26.0
+11,IP_CIDR,IP,26.0
+12,Whois_Email,Domain,27.0
+13,Whois_Name,Domain,69.0
+14,Whois_Phone,Domain,13.0
