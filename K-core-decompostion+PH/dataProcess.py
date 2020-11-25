@@ -1,5 +1,7 @@
 import json
 import re
+import numpy as np
+import pandas as pd
 
 def dataProcess():
     with open('example2.json') as fp:
@@ -43,7 +45,7 @@ def dataProcess():
             length = 60
         links[-1]['length'] = length
 
-    print(links)
+    # print(links)
     with open('test_data.edges', 'w') as wp:
         for edge in links:
             wp.write('%d %d %d %s\n' % (edge['source'], edge['target'], edge['length'], edge['relation']))
